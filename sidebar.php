@@ -6,7 +6,7 @@
  *
  * @package Caldera
  */
-	$sidebar_position = get_theme_mod( 'sidebar_position' );
+		$sidebar_position = get_theme_mod( 'sidebar_position' );
 
 if ( 'fullwidth' === $sidebar_position ) {
 	return;
